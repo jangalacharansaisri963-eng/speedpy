@@ -1804,7 +1804,7 @@ static PyMethodDef arithmetic_methods[] = {
     {"decrement_by", sp_decrement_by, METH_VARARGS, "Decrement by amount."},
     {"add_three", sp_add_three, METH_VARARGS, "Add three integers."},
     {"sum_range", sp_sum_range, METH_VARARGS, "Sum an integer range."},
-        {"count_range", sp_count_range, METH_VARARGS, "Count."},
+    {"count_range", sp_count_range, METH_VARARGS, "Count."},
     {"distance", sp_distance, METH_VARARGS, "Distance between two values."},
     {"nearest_multiple", sp_nearest_multiple, METH_VARARGS, "Nearest multiple."},
     {"round_down_multiple", sp_round_down_multiple, METH_VARARGS, "Round down to a multiple."},
