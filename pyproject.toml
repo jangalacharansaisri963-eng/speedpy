@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speedpy"
+version = "1.0.0"
+description = "A high-performance Python library powered by C"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Dan Studios"}
+]
+keywords = [
+    "python",
+    "c",
+    "speed",
+    "performance",
+    "algorithms",
+    "fast"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: C",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering"
+]
+
+[project.urls]
+Homepage = "https://github.com/jangalacharan­saisri963-eng/speedpy"
+Repository = "https://github.com/jangalacharan­saisri963-eng/speedpy"
+Issues = "https://github.com/jangalacharan­saisri963-eng/speedpy/issues"
